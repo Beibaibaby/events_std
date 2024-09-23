@@ -1,0 +1,41 @@
+#IE plasticity is frozen at low value to capture limit cycle, frozen system
+#connection and input parameters
+par jee=2, jei=2, jie=10, jii=2
+par Ie=-0.2,Ii=-0.5
+#system size
+par N=400
+#excitatory and inhibitory timescales
+par taue=1, taui=1
+#plasticity parameters
+par tree=8,tdee=2
+par trie=10,tdie=0.5
+par threshee=0.3, threshie=0.1
+par bee=50, bie=100
+par mee=2, mie=1
+
+#sigmoidal transfer function
+f(u)=1/(1+exp(-sqrt(N)*u))
+#probability of release functions
+ar(u,a,b,m) = m/(1+exp(-b*(u-a)))
+pr(u,a,b,m,c,d) = d/(d+c*ar(u,a,b,m))
+
+#because IE plasticity is frozen
+par prie = 0.0476
+
+#governing equations
+ve'  = (-ve+f(jee*pree*ve-jei*vi+Ie))/taue
+vi'  = (-vi+f(jie*prie*ve-jii*vi+Ii))/taui
+pree' = ((1-pree)/tree) - pree*ar(ve,threshee,bee,mee)/tdee 
+
+#auxiliary variables to track
+aux rie = vi*prie
+aux ree = ve*pree
+
+#initial conditions
+init ve=0.01, vi=0.01, pree=1
+
+#various visualization and numerical settings
+@ xp1=ve,yp1=vi,xlo=-0.05,xhi=1.05,ylo=-0.05,yhi=1.05
+@ nmesh=200,total=200,nplot=1
+@ meth=cvode,atol=1e-10,tol=1e-10
+done
