@@ -1,1 +1,0 @@
-/gpfs/data/doiron-lab/draco/results_new/d_ee=0.24+f_ie=0.0+d_ie=0.24+2024-03-20_12-52-39
