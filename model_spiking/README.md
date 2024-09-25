@@ -61,7 +61,7 @@ You can modify network parameters and initial conditions by editing the values i
 
 #### Downloading Custom Weights
 If you want to use custom weights for your simulations, you can create a random matrix and store it, or download an example one:
-1. Visit the Google Drive link provided: [Download Weights](https://drive.google.com/drive/folders/xxxxxx)
+1. Visit the Google Drive link provided: [Download Weights](https://drive.google.com/file/d/196eV5s0HyQuvvNJzoV9PkFcrPD7EsLOn/view?usp=drive_link)
 2. Download the `weights_records.jdl2` file.
 3. Place the file in the `hyperparameter/` directory.
 4. Update the path in `sim.jl` to point to your new weights file, ensuring the format matches that expected by the simulation scripts.
