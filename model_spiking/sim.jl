@@ -1,5 +1,4 @@
-#this file is part of litwin-kumar_doiron_cluster_2012
-#Copyright (C) 2014 Ashok Litwin-Kumar
+#Copyright (C) 2024 Yunlong Xu
 #see README for more information
 using Statistics
 using ProgressMeter
