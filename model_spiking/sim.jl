@@ -1,4 +1,4 @@
-#Copyright (C) 2024 Yunlong Xu
+#Copyright (C) 2024 Draco(Yunlong) Xu
 #see README for more information
 using Statistics
 using ProgressMeter
