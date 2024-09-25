@@ -32,11 +32,11 @@ using Distributions
 ### Installation
 First, clone the main project repository:
 ```bash
-git clone https://github.com/yourusername/your-repository-name.git
+git clone https://github.com/Beibaibaby/events_std.git
 ```
 Navigate to the `model_spiking` directory:
 ```bash
-cd your-repository-name/model_spiking
+cd events_std/model_spiking
 ```
 
 Install the required Julia packages by starting Julia and running:
