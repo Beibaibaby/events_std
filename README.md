@@ -74,7 +74,7 @@ If this model or code aids your research, please cite:
 ```bibtex
 @article{dunworth2024interleaving,
   title={Interleaving asynchronous and synchronous activity in balanced cortical networks with short term synaptic depression},
-  author={Dunworth, Jeffrey B. and Xu, Yunlong and Graupner, Michael and Ermentrout, Bard and Reyes, Alex D. and Doiron, Brent},
+  author={Dunworth, Jeffrey B.* and Xu, Yunlong* and Graupner, Michael and Ermentrout, Bard and Reyes, Alex D. and Doiron, Brent},
   journal={TBD},
   year={2024},
 }
