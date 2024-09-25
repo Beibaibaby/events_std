@@ -3,7 +3,7 @@
 ## Description
 This GitHub repository contains the computational models and simulations used in our study, which investigates the dynamics of asynchronous and synchronous activity in cortical networks influenced by short term synaptic depression. Our findings are published in:
 
-> Dunworth, J. B., Xu, Y., Graupner, M., Ermentrout, B., Reyes, A. D., & Doiron, B. (2024). Interleaving asynchronous and synchronous activity in balanced cortical networks with short term synaptic depression. 
+> Dunworth, J. B.*, Xu, Y.*, Graupner, M., Ermentrout, B., Reyes, A. D., & Doiron, B. (2024). Interleaving asynchronous and synchronous activity in balanced cortical networks with short term synaptic depression. 
 
 The repository is structured into directories for the rate model (MATLAB) and the spiking model (Julia), featuring scripts that generate traces, run simulations, and plot results.
 
