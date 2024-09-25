@@ -30,7 +30,7 @@ The repository is structured into directories for the rate model (MATLAB) and th
 ### Installation
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/your-repository-name.git
+git clone https://github.com/Beibaibaby/events_std.git
 ```
 
 ### Running the Rate Model (MATLAB)
