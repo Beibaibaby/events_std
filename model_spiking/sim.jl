@@ -301,7 +301,7 @@ function sim_dynamic(Ne,Ni,T,taue,taui,pei,pie,pii,pee,K,stimstr_para,Nstim,jie_
                 synInput += stimstr_2
             end
 
-            gaussian_noise_local = sqrt(1-c_noise) * randn() * sigma_noise * dt
+            gaussian_noise_local = sqrt(1-c_noise) * randn() * sigma_noise * sqrt(dt)
             
             ##########
             synInput += gaussian_noise_local
